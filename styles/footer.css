@@ -1,4 +1,5 @@
 footer{
+    padding-bottom: 115px;
     padding-top: 92px;
     background-color: var(--title-color);
 }
@@ -74,5 +75,4 @@ input{
     line-height: 1.22;
     border-radius: 3px;
     border: none;
-    margin-bottom: 115px;
 }
