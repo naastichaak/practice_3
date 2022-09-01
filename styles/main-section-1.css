@@ -4,7 +4,7 @@
     margin-top: 110px;
 }
 
-.main-title{
+.main-title-1{
     text-align: center;
     text-transform: uppercase;
     color: var(--title-color);
@@ -35,7 +35,6 @@
 .icon{
     width: 66px;
     height: 66px;
-    margin-bottom: 10px;
 }
 
 .li-title{
@@ -47,7 +46,6 @@
 }
 
 .information{
-    margin-top: 10px;
     font-family: var(--roboto);
     color: var(--text-color);
     font-size: 14px;

@@ -1,15 +1,15 @@
-footer{
+.feedback{
     padding-bottom: 115px;
     padding-top: 92px;
     background-color: var(--title-color);
 }
 
-.feedback{
+.feedback-wrapper{
     margin: 0 auto;
     max-width: 942px;
 }
 
-.footer-title{
+.main-title-2{
     text-align: center;
     text-transform: uppercase;
     color: var(--white-color);
@@ -21,7 +21,7 @@ footer{
     margin-bottom: 115px;
 }
 
-.wrapper{
+form{
     display: flex;
     justify-content: center;
     margin-bottom: 27px;
@@ -43,21 +43,35 @@ footer{
     margin-bottom: 0px;
 }
 
-input{
+input::placeholder{
     text-transform: uppercase;
     color: var(--addition-text-color);
     font-family: var(--montserrat);
     font-size: 14px;
     font-weight: 700;
     line-height: 1.21;
+    padding-left: 20px;
 }
 
 .message{
     width: 458px;
-    height: 212px;
+    height: 210px;
     border-width: 1px;
     border-radius: 3px;
     border-color: #CCCCCC;
+    resize: none;
+}
+
+.message::placeholder{
+    text-transform: uppercase;
+    color: var(--addition-text-color);
+    font-family: var(--montserrat);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.21;
+    padding-left: 20px;
+    padding-top: 16px;
+
 }
 
 .submit{
