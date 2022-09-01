@@ -1,0 +1,78 @@
+footer{
+    padding-top: 92px;
+    background-color: var(--title-color);
+}
+
+.feedback{
+    margin: 0 auto;
+    max-width: 942px;
+}
+
+.footer-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-family: var(--montserrat);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.23;
+    letter-spacing: -1px;
+    margin-bottom: 115px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 27px;
+}
+
+.name, .email, .subject{
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    height: 50px;
+    margin-bottom: 28px;
+    margin-right: 28px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #CCCCCC;
+}
+
+.subject{
+    margin-bottom: 0px;
+}
+
+input{
+    text-transform: uppercase;
+    color: var(--addition-text-color);
+    font-family: var(--montserrat);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.21;
+}
+
+.message{
+    width: 458px;
+    height: 212px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #CCCCCC;
+}
+
+.submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 242px;
+    height: 68px;
+    background-color: var(--yellow-color);
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-family: var(--montserrat);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.22;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 115px;
+}
