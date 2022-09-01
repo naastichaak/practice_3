@@ -1,0 +1,16 @@
+.name, .email, .subject{
+    padding-left: 20px;
+    font-family: var(--montserrat);
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.message{
+    padding-top: 16px;
+    padding-left: 20px;
+    font-family: var(--montserrat);
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+}
